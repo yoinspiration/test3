@@ -3,6 +3,8 @@
 1. 在命令行中依次输入以下命令
 
 ```shell
+pip install Django
+pip install django-cors-headers
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
